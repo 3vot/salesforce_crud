@@ -1,0 +1,11 @@
+<li class="list-group-item account-item">
+  <span data-id="<%= @id %>" class="editable btn_edit">
+    <%= @Name %>
+  </span>
+
+  <span class="editable show_on_editing">
+    <input data-id="<%= @id %>" class="txt_name form-control"  value="<%= @Name %>" />
+  </span>
+  
+  <span class="badge btn_delete" data-id="<%= @id %>">x</span>
+</li>
